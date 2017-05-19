@@ -1,0 +1,131 @@
+body {
+	background-color: #BDBDBD;
+}
+/* Seiten-Kopf */
+#header {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 14%;
+	background-image: url(../images/sbsd/web/header.png);
+	/*border-style: solid;*/
+}
+/* Seiten-Navigation */
+#nav {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 4%;
+	/*border-style: solid;*/
+}
+/* Seiten-Konhtext Bereich */
+#context {
+	position: relative;
+	top: 0%;
+	width: 100%;
+	height: 79.5%;
+	overflow: auto;
+	overflow-x: hidden;
+	/*border-style: solid;*/
+	/*border: 1px solid black;*/
+}
+/* Button EXTJS */
+.tool-btn .x-btn-tl,
+.tool-btn .x-btn-tr,
+.tool-btn .x-btn-tc,
+.tool-btn .x-btn-ml,
+.tool-btn .x-btn-mr,
+.tool-btn .x-btn-mc,
+.tool-btn .x-btn-bl,
+.tool-btn .x-btn-br,
+.tool-btn .x-btn-bc{
+	background: #01DF01;
+}
+/* Logo */
+#header-logo {
+	float: left;
+	background-image: url(../images/sbsd/web/logo.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 98%;
+	width: 10%;
+}
+/* header-text */
+#header-text {
+	padding-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: ARIAL, VERDANA, HELVETICA;
+	color: #FFFFFF;
+}
+#header-logout {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+#header-user-info {
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: ARIAL, VERDANA, HELVETICA;
+	color: #FFFFFF;
+}
+.toolbar {
+	background-color: #009933;
+}
+.toolbar_button:hover {
+	background-color: #00ff00;
+}
+.toolbar_button {
+	margin-right: 10px;
+}
+.toolbar_button button {
+	font-weight: bold;
+	font-size: 12px;
+}
+.menutext {
+	font-weight: bold;
+	font-size: 12px;
+}
+/*.normal_button:hover {
+	background-color: #ccffff;
+	border-radius: 20px;
+}*/
+.normal_button {
+	padding: 4px;
+	margin-right: 2px;
+	/*border-width: 1px;
+	border-color: #000000;
+	border-style: solid;*/
+}
+.panel_button {
+	padding: 4px;
+	margin-right: 20px;
+	/*border-width: 1px;
+	border-color: #000000;
+	border-style: solid;*/
+}
+.panel_button button,
+.normal_button button {
+	font-weight: bold;
+	font-size: 12px;
+}
+.window button {
+	font-weight: bold;
+	font-size: 12px;
+}
+.unsichtbar {
+	width: 0px;
+    height: 0px;
+    background-image: none;
+}
+.delete_icon {
+	width: 16px;
+    height: 16px;
+    background-image: url(../images/sbsd/delete.png);
+}
+.stay_login_checkbox {
+	width: 18px;
+	height: 18px;
+	background-color: #000000;
+	margin-top: 8px;
+}
